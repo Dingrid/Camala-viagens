@@ -1,0 +1,69 @@
+#links {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    list-style-type: none;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .containerI {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .item {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  #texto{
+    align-self: center;
+    line-height: 50px;
+  }
+
+  #bungee{
+    margin-top:4%;
+    border-radius: 60%;
+  }
+
+  #links img{
+    border-radius: 50%;
+    border: none;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 0;
+  }
+
+  #lugares
+  {
+    margin-top: 1%;
+    width: 60%;
+    height: 60%;
+  }
+
+  .fundo
+  {
+    margin:0;
+    padding: 0;
+    background-image: url("Imagens/amazonia.jpg");
+  }
+
+ .cor-nav
+  {
+    opacity: 0.5;
+  }
+
+  hr
+  {
+    width: 30%;
+  }
+
