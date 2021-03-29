@@ -15,7 +15,7 @@
     <div class="fundo">
        <header>
        <!--Bootstrap menu-->
-        <nav  class="cor-nav navbar navbar-expand-lg navbar-dark bg-dark" >
+        <nav  class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">Camala viagens</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -105,15 +105,16 @@
         </div>
       </div>
     </div>
+
         <!--Promoções-->
-        <div id="promocoes">
-           Promoções!
+        <div id="promocoes" class="container">
+           <h3>Promoções!</h3>
           
              <!--Formulário-->
             <form>
               <div class="form-group">
-                <label for="exampleFormControlSelect1">Local</label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <label><b>Escolha o local</b></label>
+                <select class="form-control">
                   <option>Madrid, Espanha</option>
                   <option>Bahia, Brasil</option>
                   <option>Bueno Aires, Argentina</option>
@@ -121,10 +122,10 @@
                   <option>Otawwa, Canadá</option>
                 </select>
               </div>
-              <button type="submit" class="btn btn-primary">Verificar preços</button>
+              <button type="submit" class="btn btn-dark">Verificar preços</button>
             </form>
 
-
+            <h3>Estamos dando DESCONTOS para TODAS as viagens</h3>
             <!--Tabela-->
             <table class="table table-striped">
               <thead>
@@ -164,9 +165,11 @@
                 </tr>
               </tbody>
             </table>
-        </div>   <div>
+        </div>
+           
+        <div>
         <div class="container">
-          <video width="560" height="315" controls autoplay>
+          <video width="100%" height="100%" controls autoplay>
             <source src= "Imagens/turismo.mp4" type="video/mp4" />
        </video>
        
@@ -181,7 +184,7 @@
        
     </div>
        <footer>
-        <address><p>&copy; ILP-540 – Fatec-SP - Ingrid de Assis Souza</p></address>
+        <p>&copy; ILP-540 – Fatec-SP - Ingrid de Assis Souza</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
